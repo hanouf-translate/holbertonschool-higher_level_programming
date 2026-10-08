@@ -1,6 +1,7 @@
-""" class to  serialize and deserialize custom Python objects using the pickle"""
 import pickle
 class CustomObjects():
+    """ class to  serialize and deserialize custom Python objects using the pickle"""
+
     def __init__(self, name: str, age: int, is_student: bool):
         self.name = name
         self.age = age
